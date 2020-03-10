@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+  margin-bottom: 5em;
+}
+
+header {
+  background-color: #eeeeee;
+  width: 800px;
+  height: 150px;
+  z-index: 2;
+  margin: 0;
+}
+header h1 {
+  text-transform: uppercase;
+  font-family: "Arial";
+  font-size: 38px;
+  color: #656565;
+  line-height: 4;
+  text-align: center;
+  z-index: 3;
+}
+
+nav {
+  background-color: #ea6a5b;
+  width: 800px;
+  height: 30px;
+  z-index: 3;
+}
+nav a {
+  font-family: "Arial";
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  float: left;
+  margin-left: 1em;
+  line-height: 1.8em;
+}
+
+.active {
+  border-bottom: 2px solid #333333;
+  color: #333333;
+}
+
+table {
+  border-collapse: collapse;
+}
+table .second-row {
+  background-color: #dddddd;
+}
+table .second-row td {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #212121;
+  padding: 0.5em;
+  width: 117px;
+}
+table .second-row .last-col {
+  width: 270px;
+}
+table .first-row {
+  background-color: #dddddd;
+}
+table .first-row td {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #212121;
+  padding: 0.5em;
+  width: 170px;
+}
+table .first-row .first-col {
+  width: 100px;
+}
+table .first-row .second-col {
+  width: 100px;
+}
+table .all-row td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  font-size: 14px;
+  font-family: "Arial";
+  color: #212121;
+  padding: 0.5em;
+}
+
+.action button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+h4 {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #212121;
+  font-weight: bold;
+}
+
+section {
+  width: 100%;
+}
+section .car-details {
+  margin-top: 2.5em;
+}
+section .car-details h2 {
+  font-size: 1.5em;
+  font-family: "Arial";
+  color: #212121;
+  font-weight: bold;
+}
+section .car-details form .form-group {
+  display: block;
+  margin-bottom: 0.5em;
+}
+section .car-details form .form-group label {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #212121;
+  font-weight: bold;
+}
+section .car-details form .form-group input {
+  margin-left: 4.3em;
+  width: 12.2em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+section .car-details form .form-group .first-select {
+  margin-left: 2.3em;
+  width: 12.3em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+section .car-details form .form-group .second-select {
+  margin-left: 3em;
+  width: 12.3em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+section .car-details form input[type=submit] {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #ea6a5b;
+  width: 150px;
+  height: 32px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+section h1 {
+  font-size: 24px;
+  font-family: "Arial";
+  color: #212121;
+  font-weight: bold;
+  text-align: center;
+}
+
+.before-car {
+  margin-left: 2em;
+}
+.before-car img {
+  margin-left: 4em;
+}
+.before-car .arrow {
+  padding-bottom: 4.5em;
+}
+
+.row {
+  display: flex;
+}
+
+.shop-performance-table {
+  margin-left: 2em;
+}
+.shop-performance-table tbody {
+  background-color: #eeeeee;
+}
+.shop-performance-table td {
+  width: 125px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Arial";
+  color: #212121;
+  padding: 0.4em;
+}
+.shop-performance-table .col-padding {
+  text-align: right;
+  padding-right: 1em;
+}
+.shop-performance-table .col-align {
+  padding-left: 2em;
+}
+
+.shop-row {
+  background-color: #ea6a5b;
+}
+.shop-row td {
+  color: white;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
